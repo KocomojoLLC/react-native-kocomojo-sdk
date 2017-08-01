@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		390CA45D1F2A7D4D000BDECA /* libKocomojoGoogle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 390CA45C1F2A7D4D000BDECA /* libKocomojoGoogle.a */; };
+		3946E2131EC1019B0095BC32 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3946E1FF1EC100140095BC32 /* libSDWebImage.a */; };
+		39DA56E91EBBC48600CE1084 /* CachedImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DA56E41EBBC48600CE1084 /* CachedImagePrefetcher.m */; };
+		39DA56EA1EBBC48600CE1084 /* CachedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DA56E61EBBC48600CE1084 /* CachedImageView.m */; };
+		39DA56EB1EBBC48600CE1084 /* CachedImageViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39DA56E81EBBC48600CE1084 /* CachedImageViewManager.m */; };
+		39F1E54B1F211D9900800AC1 /* KocomojoGoogleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F1E54A1F211D9900800AC1 /* KocomojoGoogleManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3946E1FE1EC100140095BC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3946E1F51EC100140095BC32 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = SDWebImage;
+		};
+		3946E2001EC100140095BC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3946E1F51EC100140095BC32 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 537D95C117ECC1FE0097C263;
+			remoteInfo = "SDWebImage+WebP";
+		};
+		3946E2021EC100140095BC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3946E1F51EC100140095BC32 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
+			remoteInfo = "SDWebImage+MKAnnotation";
+		};
+		3946E2041EC100140095BC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3946E1F51EC100140095BC32 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
+			remoteInfo = WebImage;
+		};
+		3946E2061EC100140095BC32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3946E1F51EC100140095BC32 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00733A4C1BC487C000A5A117;
+			remoteInfo = "WebImage tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNKocomojoSdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNKocomojoSdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		390CA45C1F2A7D4D000BDECA /* libKocomojoGoogle.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKocomojoGoogle.a; sourceTree = "<group>"; };
+		390CA45E1F2A887E000BDECA /* KocomojoGoogle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KocomojoGoogle.h; sourceTree = "<group>"; };
+		3946E1F51EC100140095BC32 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		39DA56E31EBBC48600CE1084 /* CachedImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CachedImagePrefetcher.h; path = CachedImage/CachedImagePrefetcher.h; sourceTree = "<group>"; };
+		39DA56E41EBBC48600CE1084 /* CachedImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CachedImagePrefetcher.m; path = CachedImage/CachedImagePrefetcher.m; sourceTree = "<group>"; };
+		39DA56E51EBBC48600CE1084 /* CachedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CachedImageView.h; path = CachedImage/CachedImageView.h; sourceTree = "<group>"; };
+		39DA56E61EBBC48600CE1084 /* CachedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CachedImageView.m; path = CachedImage/CachedImageView.m; sourceTree = "<group>"; };
+		39DA56E71EBBC48600CE1084 /* CachedImageViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CachedImageViewManager.h; path = CachedImage/CachedImageViewManager.h; sourceTree = "<group>"; };
+		39DA56E81EBBC48600CE1084 /* CachedImageViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CachedImageViewManager.m; path = CachedImage/CachedImageViewManager.m; sourceTree = "<group>"; };
+		39F1E5491F211D9900800AC1 /* KocomojoGoogleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KocomojoGoogleManager.h; sourceTree = "<group>"; };
+		39F1E54A1F211D9900800AC1 /* KocomojoGoogleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KocomojoGoogleManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3946E2131EC1019B0095BC32 /* libSDWebImage.a in Frameworks */,
+				390CA45D1F2A7D4D000BDECA /* libKocomojoGoogle.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNKocomojoSdk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		390CA4471F2A7D3B000BDECA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				390CA45C1F2A7D4D000BDECA /* libKocomojoGoogle.a */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		3946E1F61EC100140095BC32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3946E1FF1EC100140095BC32 /* libSDWebImage.a */,
+				3946E2011EC100140095BC32 /* libSDWebImage+WebP.a */,
+				3946E2031EC100140095BC32 /* libSDWebImage+MKAnnotation.a */,
+				3946E2051EC100140095BC32 /* WebImage.framework */,
+				3946E2071EC100140095BC32 /* WebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39DA56E21EBBC47700CE1084 /* CachedImage */ = {
+			isa = PBXGroup;
+			children = (
+				39DA56E31EBBC48600CE1084 /* CachedImagePrefetcher.h */,
+				39DA56E41EBBC48600CE1084 /* CachedImagePrefetcher.m */,
+				39DA56E51EBBC48600CE1084 /* CachedImageView.h */,
+				39DA56E61EBBC48600CE1084 /* CachedImageView.m */,
+				39DA56E71EBBC48600CE1084 /* CachedImageViewManager.h */,
+				39DA56E81EBBC48600CE1084 /* CachedImageViewManager.m */,
+			);
+			name = CachedImage;
+			sourceTree = "<group>";
+		};
+		39F1E5421F211B9500800AC1 /* KocomojoGoogle */ = {
+			isa = PBXGroup;
+			children = (
+				390CA45E1F2A887E000BDECA /* KocomojoGoogle.h */,
+				39F1E5491F211D9900800AC1 /* KocomojoGoogleManager.h */,
+				39F1E54A1F211D9900800AC1 /* KocomojoGoogleManager.m */,
+			);
+			path = KocomojoGoogle;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				390CA4471F2A7D3B000BDECA /* Libraries */,
+				3946E1F51EC100140095BC32 /* SDWebImage.xcodeproj */,
+				39F1E5421F211B9500800AC1 /* KocomojoGoogle */,
+				39DA56E21EBBC47700CE1084 /* CachedImage */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNKocomojoSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNKocomojoSdk" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNKocomojoSdk;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNKocomojoSdk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNKocomojoSdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3946E1F61EC100140095BC32 /* Products */;
+					ProjectRef = 3946E1F51EC100140095BC32 /* SDWebImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNKocomojoSdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3946E1FF1EC100140095BC32 /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 3946E1FE1EC100140095BC32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3946E2011EC100140095BC32 /* libSDWebImage+WebP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+WebP.a";
+			remoteRef = 3946E2001EC100140095BC32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3946E2031EC100140095BC32 /* libSDWebImage+MKAnnotation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+MKAnnotation.a";
+			remoteRef = 3946E2021EC100140095BC32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3946E2051EC100140095BC32 /* WebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WebImage.framework;
+			remoteRef = 3946E2041EC100140095BC32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3946E2071EC100140095BC32 /* WebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WebImage.framework;
+			remoteRef = 3946E2061EC100140095BC32 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39DA56EB1EBBC48600CE1084 /* CachedImageViewManager.m in Sources */,
+				39DA56E91EBBC48600CE1084 /* CachedImagePrefetcher.m in Sources */,
+				39DA56EA1EBBC48600CE1084 /* CachedImageView.m in Sources */,
+				39F1E54B1F211D9900800AC1 /* KocomojoGoogleManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNKocomojoSdk;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNKocomojoSdk;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNKocomojoSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNKocomojoSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
