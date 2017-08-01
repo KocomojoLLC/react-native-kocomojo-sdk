@@ -1,0 +1,27 @@
+{
+  "name": "react-native-kocomojo-sdk",
+  "version": "0.9.871",
+  "description": "This is the React Native version of the Kocomojo SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KocomojoLLC/react-native-kocomojo-sdk.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "kocomojo",
+    "sdk",
+    "geolocation",
+    "beacons"
+  ],
+  "author": "Elijah Windsor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KocomojoLLC/react-native-kocomojo-sdk/issues"
+  },
+  "homepage": "https://github.com/KocomojoLLC/react-native-kocomojo-sdk#readme"
+}
