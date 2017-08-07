@@ -20,6 +20,32 @@
   ],
   "author": "Elijah Windsor",
   "license": "LicenseRef-LICENSE",
+  "dependencies": {
+    "firebase": "^4.1.3",
+    "htmlparser2": "^3.9.2",
+    "humps": "^1.1.0",
+    "lodash": "^4.14.0",
+    "moment": "^2.14.1",
+    "moment-timezone": "^0.5.4",
+    "normalizr": "^2.1.0",
+    "react-native-bluetooth-state": "git://github.com/KocomojoLLC/react-native-bluetooth-state#fb3a438587814479b48da75e6021873100636b1e",
+    "react-native-device-info": "^0.9.3",
+    "react-native-fbsdk": "^0.6.1",
+    "react-native-geocoder": "^0.4.4",
+    "react-native-ibeacon": "git://github.com/KocomojoLLC/react-native-ibeacon#5063df522f14bf2042dfc537d8863d34975b01e0",
+    "react-native-location": "git://github.com/KocomojoLLC/react-native-location#b128d75f4c5231c6f20f63ba1919a7cb9f3bcf05",
+    "react-native-video": "^1.0.0",
+    "react-navigation": "v1.0.0-beta.11",
+    "react-redux": "5.0.3",
+    "redux": "3.6.0",
+    "redux-persist": "^4.6.0",
+    "redux-thunk": "^2.2.0",
+    "tipsi-stripe": "^2.3.0"
+  },
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  },
+
   "bugs": {
     "url": "https://github.com/KocomojoLLC/react-native-kocomojo-sdk/issues"
   },
