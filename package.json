@@ -19,7 +19,7 @@
     "beacons"
   ],
   "author": "Elijah Windsor",
-  "license": "ISC",
+  "license": "LicenseRef-LICENSE",
   "bugs": {
     "url": "https://github.com/KocomojoLLC/react-native-kocomojo-sdk/issues"
   },
