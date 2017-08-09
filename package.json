@@ -1,6 +1,6 @@
 {
   "name": "react-native-kocomojo-sdk",
-  "version": "0.9.875",
+  "version": "0.9.876",
   "description": "This is the React Native version of the Kocomojo SDK",
   "main": "index.js",
   "scripts": {
