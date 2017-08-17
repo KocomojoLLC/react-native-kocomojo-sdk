@@ -1,6 +1,6 @@
 {
   "name": "react-native-kocomojo-sdk",
-  "version": "0.9.876",
+  "version": "0.9.879",
   "description": "This is the React Native version of the Kocomojo SDK",
   "main": "index.js",
   "scripts": {
@@ -49,5 +49,11 @@
   "bugs": {
     "url": "https://github.com/KocomojoLLC/react-native-kocomojo-sdk/issues"
   },
-  "homepage": "https://github.com/KocomojoLLC/react-native-kocomojo-sdk#readme"
+  "homepage": "https://github.com/KocomojoLLC/react-native-kocomojo-sdk#readme", 
+
+  "rnpm": {
+    "commands": {
+      "postlink": "node_modules/react-native-kocomojo-sdk/linkDependencies.sh"
+    }
+  }
 }
